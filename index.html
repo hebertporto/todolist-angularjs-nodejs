@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="task">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Todo Task App</title>
+
+        <meta name="author" content="Task ">
+        <link rel="stylesheet" href="dist/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway|Lato|Roboto+Slab:300,400" rel="stylesheet">
+        <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">-->
+
+        <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="container-fluid reset">
+          <toaster-container toaster-options="{'close-button': true}"></toaster-container>
+            <div ui-view></div>
+        </div>
+
+        <script src="dist/vendor.min.js"></script>
+        <!-- <script src="dist/app.min.js"></script> -->
+
+        <script src="www/app.js"></script>
+        <script src="www/routes.js"></script>
+        <script src="www/controllers/dashboard/dashboardCtrl.js"></script>
+
+        <!-- <script src="www/components/navbar/navbarHome.component.js"></script>
+
+        <script src="www/services/authenticate/authUserService.js"></script>
+
+        <script src="www/constants/configValue.js"></script>
+
+        <script src="www/interceptors/tokenInterceptor.js"></script> -->
+
+    </body>
+</html>
