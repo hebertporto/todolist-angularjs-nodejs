@@ -2,3 +2,17 @@ body {
   background: url('../img/bg.jpg')  no-repeat;
   background-size: cover;
 }
+
+.container-fluid.reset {
+    margin: 0px;
+}
+
+#id {
+
+}
+#menu {
+
+}
+#body {
+
+}
